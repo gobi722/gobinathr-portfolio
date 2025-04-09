@@ -21,7 +21,7 @@ Generates 100s of customized PDFs by dynamically fetching records from MongoDB. 
 
 ---
 
-### 📦 [Simple Admin API Service](https://github.com/gobinathr/admin-service-api) 
+### 📦 [Simple Admin API Service](https://github.com/gobi722/Spring-Boot) 
 A dynamic CRUD service to manage multiple collections and tables through a unified API.  
 ✅ Auto route handling + JSON-based structure  
 🛠 Tech: JAVA SPRINGBOOT / , MongoDB, MySQL
