@@ -13,6 +13,12 @@ A Go-based utility to securely fetch and inject environment variables from an en
 🛠 Tech: Golang, MongoDB, AES Encryption
 
 ---
+### 📦 [GRPC Image Lamda Processer](https://github.com/gobi722/grpc-lambda-image-processor) 
+A Go-based microservice project that uses gRPC for client-server communication and AWS Lambda for serverless image processing, integrated with S3 storage.
+The system allows users to send image processing requests (like resize or format conversion) via gRPC; the backend offloads the heavy lifting to Lambda, which processes the image, stores the result in S3, and returns the processed image’s public URL.
+🛠 Tech: gRPC, AWS Lambda, AWS S3, GoLang(Gin Framework)
+
+---
 
 ### 📄 [Dynamic PDF Generator](https://github.com/gobi722/dynamic-pdf-generator)
 Generates 100s of customized PDFs by dynamically fetching records from MongoDB. Each PDF is uniquely tailored per record.  
@@ -26,11 +32,6 @@ A dynamic CRUD service to manage multiple collections and tables through a unifi
 ✅ Auto route handling + JSON-based structure  
 🛠 Tech: JAVA SPRINGBOOT / , MongoDB, MySQL
 
----
-### 📦 [GRPC Image Lamda Processer](https://github.com/gobi722/grpc-lambda-image-processor) 
-A Go-based microservice project that uses gRPC for client-server communication and AWS Lambda for serverless image processing, integrated with S3 storage.
-The system allows users to send image processing requests (like resize or format conversion) via gRPC; the backend offloads the heavy lifting to Lambda, which processes the image, stores the result in S3, and returns the processed image’s public URL.
-🛠 Tech: gRPC, AWS Lambda, AWS S3, GoLang(Gin Framework)
 
 ---
 ### 🌐 [URL Shortener (Mini Project)]
