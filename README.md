@@ -1,52 +1,130 @@
-# 👨‍💻 Gobinath R — Backend Developer Portfolio
+👨‍💻 Gobinath R — Backend / Payments Systems Engineer
 
-Hi, I’m **Gobinath R**, a backend developer with 3+ years of experience in **Golang, Node.js,JAVA MongoDB, gRPC,Kafka,AWS and Oracle**.  
-This repo serves as a central showcase of my mini-projects and contributions.
+Hi 👋 I’m Gobinath R, a Senior Backend Engineer with 3+ years of hands-on experience in designing and building scalable, secure, and high-performance backend systems.
+My core expertise lies in Golang-based system development, with strong experience in Node.js and Java (Spring Boot). I have worked extensively on distributed systems, payment processing, gRPC-based microservices, event-driven architectures, and cloud-native applications.
 
----
+This repository serves as a curated portfolio of my backend and systems projects, demonstrating real-world problem solving, performance optimization, and secure design practices.
 
-## 📁 Projects
+🚀 Key Expertise
 
-### 🔐 [Secure Env Loader](https://github.com/gobi722/secure-env-loader)
-A Go-based utility to securely fetch and inject environment variables from an encrypted database during runtime.  
-✅ Prevents hardcoding secrets in `.env` files.  
-🛠 Tech: Golang, MongoDB, AES Encryption
+Backend & Systems Development: Golang, Node.js, Java (Spring Boot)
 
----
-### 📦 [GRPC Image Lamda Processer](https://github.com/gobi722/grpc-lambda-image-processor) 
-A Go-based microservice project that uses gRPC for client-server communication and AWS Lambda for serverless image processing, integrated with S3 storage.
-The system allows users to send image processing requests (like resize or format conversion) via gRPC; the backend offloads the heavy lifting to Lambda, which processes the image, stores the result in S3, and returns the processed image’s public URL.
-🛠 Tech: gRPC, AWS Lambda, AWS S3, GoLang(Gin Framework)
+Distributed Systems: gRPC, Microservices, Event-driven architecture
 
----
+Messaging & Streaming: Apache Kafka
 
-### 📄 [Dynamic PDF Generator](https://github.com/gobi722/dynamic-pdf-generator)
-Generates 100s of customized PDFs by dynamically fetching records from MongoDB. Each PDF is uniquely tailored per record.  
-✅ Great for invoices, certificates, or reports.  
-🛠 Tech: Golang, MongoDB, gofpdf
+Databases: MongoDB, Oracle, MySQL
 
----
+Cloud & DevOps: AWS (Lambda, S3), Docker, Git
 
-### 📦 [Simple Admin API Service](https://github.com/gobi722/Spring-Boot) 
-A dynamic CRUD service to manage multiple collections and tables through a unified API.  
-✅ Auto route handling + JSON-based structure  
-🛠 Tech: JAVA SPRINGBOOT / , MongoDB, MySQL
+Security: AES Encryption, Secure Key Handling
 
+Monitoring & Tools: Postman, GitHub, Git CLI
 
----
-### 🌐 [URL Shortener (Mini Project)]
-A basic backend service to shorten long URLs with unique codes.  
-✅ Tracks hits and supports redirection  
-🛠 Tech: Node.js or Go, MongoDB
+📁 Featured Projects
+🔐 Secure Environment Loader
 
----
+🔗 https://github.com/gobi722/secure-env-loader
 
-### 📨 [Kafka Notification System]
-A publisher-consumer microservice that sends out notifications using Kafka topics.  
-✅ Designed for asynchronous event processing  
-🛠 Tech: Golang, Kafka, MongoDB
+A Go-based secure configuration loader that dynamically fetches encrypted environment variables from a database at runtime.
 
----
+Highlights
+
+Eliminates hardcoded secrets in .env files
+
+Supports AES-based encryption and decryption
+
+Designed for secure production deployments
+
+Tech Stack: Golang, MongoDB, AES Encryption
+
+📦 gRPC Image Processing with AWS Lambda
+
+🔗 https://github.com/gobi722/grpc-lambda-image-processor
+
+A distributed microservice using gRPC for client-server communication and AWS Lambda for serverless image processing.
+
+Workflow
+
+Client sends image processing requests via gRPC
+
+Backend invokes AWS Lambda for image transformation
+
+Processed images are stored in S3
+
+Public URL is returned to the client
+
+Tech Stack: Golang (Gin), gRPC, AWS Lambda, AWS S3
+
+📄 Dynamic PDF Generator
+
+🔗 https://github.com/gobi722/dynamic-pdf-generator
+
+A backend service that generates hundreds of customized PDFs by dynamically fetching data from MongoDB.
+
+Use Cases
+
+Invoices
+
+Certificates
+
+Reports
+
+Tech Stack: Golang, MongoDB, gofpdf
+
+📦 Admin CRUD API Service
+
+🔗 https://github.com/gobi722/Spring-Boot
+
+A generic admin backend that provides unified CRUD APIs across multiple collections and relational tables.
+
+Highlights
+
+Dynamic routing based on JSON payloads
+
+Supports both NoSQL and RDBMS
+
+Designed for internal admin and operational tooling
+
+Tech Stack: Java (Spring Boot), MongoDB, MySQL
+
+🌐 URL Shortener (Mini Project)
+
+A lightweight backend service to shorten long URLs and redirect users efficiently.
+
+Features
+
+Unique short-code generation
+
+Hit-count tracking
+
+Fast redirection
+
+Tech Stack: Node.js / Golang, MongoDB
+
+📨 Kafka-Based Notification System
+
+A producer–consumer microservice architecture using Kafka for asynchronous notifications.
+
+Features
+
+Decoupled message publishing and consumption
+
+Designed for high-throughput and reliability
+
+Suitable for alerts, emails, and system notifications
+
+Tech Stack: Golang, Apache Kafka, MongoDB
+
+📈 What This Portfolio Represents
+
+Real-world backend engineering problems
+
+Secure and scalable system design
+
+Performance-focused implementations
+
+Cloud-native and distributed architectures
 
 ## 🧠 Skills & Technologies
 
@@ -57,4 +135,5 @@ A publisher-consumer microservice that sends out notifications using Kafka topic
 - Version Control: GitHub, Git CLI
 
 ---
+🔗 Connect With Me
 > 🧑‍💻 GitHub: [github.com/gobi722]
