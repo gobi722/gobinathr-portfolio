@@ -9,7 +9,7 @@ This repository serves as a curated portfolio of my backend and systems projects
 
 Backend & Systems Development: Golang, Node.js, Java (Spring Boot)
 
-Distributed Systems: gRPC, Microservices, Event-driven architecture
+Distributed Systems: gRPC, Microservices, Event-driven architectures
 
 Messaging & Streaming: Apache Kafka
 
