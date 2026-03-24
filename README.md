@@ -7,6 +7,9 @@ My core expertise lies in **Golang-based system development**, with additional e
 This repository serves as a curated portfolio of my backend and systems projects, showcasing **real-world problem solving, performance optimization, and secure system design**.
 
 ---
+## 📄 Resume
+
+[![Resume](https://img.shields.io/badge/Download-Resume-blue)](./Gobinath_R_Resume.pdf)
 
 ## 🚀 Key Expertise
 
