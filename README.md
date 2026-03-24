@@ -1,139 +1,147 @@
-👨‍💻 Gobinath R — Backend / Payments Systems Engineer
+# 👨‍💻 Gobinath R — Backend / Payments Systems Engineer
 
-Hi 👋 I’m Gobinath R, a Senior Backend Engineer with 3+ years of hands-on experience in designing and building scalable, secure, and high-performance backend systems.
-My core expertise lies in Golang-based system development, with strong experience in Node.js and Java (Spring Boot). I have worked extensively on distributed systems, payment processing, gRPC-based microservices, event-driven architectures, and cloud-native applications.
+Hi 👋 I’m **Gobinath R**, a Senior Backend Engineer with 3+ years of experience in designing and building **scalable, secure, and high-performance backend systems**.
 
-This repository serves as a curated portfolio of my backend and systems projects, demonstrating real-world problem solving, performance optimization, and secure design practices.
+My core expertise lies in **Golang-based system development**, with additional experience in **Node.js and Java (Spring Boot)**. I have worked extensively on **distributed systems, payment processing,ISO8583 , gRPC-based microservices, event-driven architectures, and cloud-native applications**.
 
-🚀 Key Expertise
+This repository serves as a curated portfolio of my backend and systems projects, showcasing **real-world problem solving, performance optimization, and secure system design**.
 
-Backend & Systems Development: Golang, Node.js, Java (Spring Boot)
+---
 
-Distributed Systems: gRPC, Microservices, Event-driven architectures
+## 🚀 Key Expertise
 
-Messaging & Streaming: Apache Kafka
+- **Backend Development:** Golang, Node.js, Java (Spring Boot)  
+- **Distributed Systems:** gRPC, Microservices, Event-Driven Architecture  
+- **Messaging & Streaming:** Apache Kafka  
+- **Databases:** MongoDB, Oracle, MySQL  
+- **Cloud & DevOps:** AWS (Lambda, S3), Docker,Kubernates  
+- **Security:** AES Encryption, Secure Key Handling  
+- **Monitoring & Observability:** Prometheus, Grafana  
+- **Tools:** Git, GitHub, Postman  
 
-Databases: MongoDB, Oracle, MySQL
+---
 
-Cloud & DevOps: AWS (Lambda, S3), Docker, Git
+## 📁 Featured Projects
 
-Security: AES Encryption, Secure Key Handling
+### 🚀 SentinelSwitch (Flagship Project)
+🔗 https://github.com/gobi722/sentinelswitch  
 
-Monitoring & Tools: Postman, GitHub, Git CLI
+A **distributed, event-driven payment switch and fraud detection platform** built using Golang, simulating real-world fintech architecture.
 
-📁 Featured Projects
-🔐 Secure Environment Loader
+#### Highlights
+- Event-driven microservices using Kafka  
+- Real-time fraud detection with risk scoring (100–1000)  
+- gRPC-based inter-service communication  
+- High-throughput transaction processing design  
+- Observability with Prometheus & Grafana  
+- Fully containerized using Docker  
 
-🔗 https://github.com/gobi722/secure-env-loader
+#### Tech Stack
+Golang, Kafka, gRPC, PostgreSQL, Redis, Prometheus, Grafana, Docker, Kubernetes  
 
-A Go-based secure configuration loader that dynamically fetches encrypted environment variables from a database at runtime.
+---
 
-Highlights
+### 🔐 Secure Environment Loader
+🔗 https://github.com/gobi722/secure-env-loader  
 
-Eliminates hardcoded secrets in .env files
+A Go-based utility to securely fetch and inject environment variables from an encrypted database at runtime.
 
-Supports AES-based encryption and decryption
+#### Highlights
+- Eliminates hardcoded secrets in `.env` files  
+- AES-based encryption & decryption  
+- Designed for secure production environments  
 
-Designed for secure production deployments
+**Tech Stack:** Golang, MongoDB, AES Encryption  
 
-Tech Stack: Golang, MongoDB, AES Encryption
+---
 
-📦 gRPC Image Processing with AWS Lambda
+### 📦 gRPC Image Processing with AWS Lambda
+🔗 https://github.com/gobi722/grpc-lambda-image-processor  
 
-🔗 https://github.com/gobi722/grpc-lambda-image-processor
+A distributed system using gRPC and AWS Lambda for scalable image processing.
 
-A distributed microservice using gRPC for client-server communication and AWS Lambda for serverless image processing.
+#### Workflow
+- Client sends request via gRPC  
+- Backend invokes AWS Lambda  
+- Processed image stored in S3  
+- Public URL returned  
 
-Workflow
+**Tech Stack:** Golang (Gin), gRPC, AWS Lambda, AWS S3  
 
-Client sends image processing requests via gRPC
+---
 
-Backend invokes AWS Lambda for image transformation
+### 📄 Dynamic PDF Generator
+🔗 https://github.com/gobi722/dynamic-pdf-generator  
 
-Processed images are stored in S3
+Generates large volumes of customized PDFs dynamically from database records.
 
-Public URL is returned to the client
+#### Use Cases
+- Invoices  
+- Certificates  
+- Reports  
 
-Tech Stack: Golang (Gin), gRPC, AWS Lambda, AWS S3
+**Tech Stack:** Golang, MongoDB, gofpdf  
 
-📄 Dynamic PDF Generator
+---
 
-🔗 https://github.com/gobi722/dynamic-pdf-generator
+### 📦 Admin CRUD API Service
+🔗 https://github.com/gobi722/Spring-Boot  
 
-A backend service that generates hundreds of customized PDFs by dynamically fetching data from MongoDB.
+A flexible backend service providing unified CRUD APIs across multiple data sources.
 
-Use Cases
+#### Highlights
+- Dynamic routing based on JSON  
+- Supports both NoSQL and RDBMS  
+- Designed for admin/internal tools  
 
-Invoices
+**Tech Stack:** Java (Spring Boot), MongoDB, MySQL  
 
-Certificates
+---
 
-Reports
+### 🌐 URL Shortener
+A lightweight backend service to generate and manage short URLs.
 
-Tech Stack: Golang, MongoDB, gofpdf
+#### Features
+- Unique short-code generation  
+- Hit tracking  
+- Fast redirection  
 
-📦 Admin CRUD API Service
+**Tech Stack:** Node.js / Golang, MongoDB  
 
-🔗 https://github.com/gobi722/Spring-Boot
+---
 
-A generic admin backend that provides unified CRUD APIs across multiple collections and relational tables.
+### 📨 Kafka Notification System
+A producer-consumer microservice system for asynchronous notifications.
 
-Highlights
+#### Features
+- Event-driven architecture  
+- High throughput & scalability  
+- Suitable for alerts & messaging systems  
 
-Dynamic routing based on JSON payloads
+**Tech Stack:** Golang, Kafka, MongoDB  
 
-Supports both NoSQL and RDBMS
+---
 
-Designed for internal admin and operational tooling
+## 📈 What This Portfolio Represents
 
-Tech Stack: Java (Spring Boot), MongoDB, MySQL
+- Real-world backend engineering challenges  
+- Scalable and secure system design  
+- High-performance, low-latency architectures  
+- Cloud-native and distributed systems expertise  
 
-🌐 URL Shortener (Mini Project)
-
-A lightweight backend service to shorten long URLs and redirect users efficiently.
-
-Features
-
-Unique short-code generation
-
-Hit-count tracking
-
-Fast redirection
-
-Tech Stack: Node.js / Golang, MongoDB
-
-📨 Kafka-Based Notification System
-
-A producer–consumer microservice architecture using Kafka for asynchronous notifications.
-
-Features
-
-Decoupled message publishing and consumption
-
-Designed for high-throughput and reliability
-
-Suitable for alerts, emails, and system notifications
-
-Tech Stack: Golang, Apache Kafka, MongoDB
-
-📈 What This Portfolio Represents
-
-Real-world backend engineering problems
-
-Secure and scalable system design
-
-Performance-focused implementations
-
-Cloud-native and distributed architectures
+---
 
 ## 🧠 Skills & Technologies
 
-- Languages: **Golang**, **Node.js**, Java (Spring Boot)
-- Databases: **MongoDB**, Oracle, MySQL
-- Messaging: **Kafka**, RabbitMQ
-- Dev Tools: Git, Docker, Postman
-- Version Control: GitHub, Git CLI
+- **Languages:** Golang, Node.js, Java (Spring Boot)  
+- **Databases:** MongoDB, Oracle, MySQL  
+- **Messaging:** Kafka, RabbitMQ  
+- **Monitoring:** Prometheus, Grafana  
+- **DevOps:** Docker  
+- **Tools:** Git, GitHub, Postman  
 
 ---
-🔗 Connect With Me
-> 🧑‍💻 GitHub: [github.com/gobi722]
+
+## 🔗 Connect With Me
+
+- 🧑‍💻 GitHub: https://github.com/gobi722
